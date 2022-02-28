@@ -1,3 +1,28 @@
+## Setting Up Highlight
+
+### Install the dependencies
+
+```sh
+npm i highlight.run
+```
+
+### Code Changes
+
+#### 1. Initialize Highlight
+
+In this example, we initialize Highlight in [_app.tsx](./src/app.html).
+
+```html
+%svelte.head%
+
+<script src="https://cdn.jsdelivr.net/npm/highlight.run@latest"></script>
+<script>
+	window.H.init('<YOUR_PROJECT_ID>');
+</script>
+```
+
+---
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
