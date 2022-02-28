@@ -1,11 +1,5 @@
 ## Setting Up Highlight
 
-### Install the dependencies
-
-```sh
-npm i highlight.run
-```
-
 ### Code Changes
 
 #### 1. Initialize Highlight
