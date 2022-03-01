@@ -1,6 +1,12 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
+	import {onMount} from 'svelte'
+	import {H} from 'highlight.run'
+
+	onMount(() => {
+		H.init("<YOUR_PROJECT_ID>");
+	})
 </script>
 
 <Header />
